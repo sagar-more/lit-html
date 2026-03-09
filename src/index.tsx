@@ -1,6 +1,6 @@
 import { createRoot } from 'react-dom/client';
 import LitHeader from './Components/LitHeader';
-import LitSelect from './Components/LitSelect/index.js';
+import LitSelect from './Components/LitSelect';
 
 const App = () => {
     return (
@@ -17,5 +17,6 @@ const App = () => {
 }
 
 const root = createRoot(document.getElementById('app')!);
+
 
 root.render(<App />);
