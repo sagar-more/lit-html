@@ -1,6 +1,6 @@
 import React from "react";
 import { createComponent, type EventName } from "@lit/react";
-import { LitSelect } from "./LitSelect.js";
+import { LitSelect } from "./LitSelect";
 
 // Creates a React component from a Lit component
 export default createComponent({
@@ -11,3 +11,4 @@ export default createComponent({
     onChange: "option-changed" as EventName<CustomEvent<{ value: string }>>,
   },
 });
+
