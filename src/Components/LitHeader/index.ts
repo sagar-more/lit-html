@@ -1,6 +1,6 @@
 import React from "react";
 import { createComponent } from "@lit/react";
-import { LitHeader } from "./LitHeader.js";
+import { LitHeader } from "./LitHeader";
 
 // Creates a React component from a Lit component
 export default createComponent({
@@ -8,3 +8,4 @@ export default createComponent({
   tagName: "lit-header",
   elementClass: LitHeader,
 });
+
